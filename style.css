@@ -1,0 +1,139 @@
+
+*{
+	padding: 0;
+	margin: 0;
+
+box-sizing: borderbox;
+font-family: 'Lemonada', cursive;
+}
+    header{
+    	width: 100%;
+    	height: 100vh;
+		background-image:linear-gradient(rgba(0, 0, 0, 0.164),rgba(31, 30, 30, 0.1)),url('bg.jpg');
+		background-repeat:no-repeat ;
+    	background-size:cover;
+}
+nav{
+	width:100%
+	height:15vh;
+	background:rgba(0,0,0,0.2);
+	color:white;
+	display:flex;
+	justify-content:space-betweeen;
+	align-items:center;
+	justify-content:space-around;
+	 text-transform:uppercase;
+}
+
+	 .logo{
+	 width:20%;
+	 text-align:center;
+
+	 }
+
+	 .menu
+            	 {
+            width:40%;
+             display: flex;
+            justify-content: space-around;
+               	 }
+ 
+
+       .menu a{
+		   color: mediumaquamarine;
+		   text-decoration: none;
+		   font-weight: bold;
+		   width:25%;
+
+	   
+}
+
+main{
+
+	width:100% ;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-align: center;
+	
+}
+section{
+	padding-top: 40px;
+}
+section h3{
+	font-size:70px ;
+	font-weight: 300;
+	letter-spacing: 3px;
+	text-shadow:2px 3px 3px black;
+}
+section h1{
+margin: 30px 0 20 px 0;
+ font-size:40px;
+ text-shadow:2px 3px 3px black;
+
+}
+section p{
+
+font-size: 25px;
+word-spacing: 2px;
+margin-bottom: 25px;
+text-shadow:2px 3px 2px black;
+}
+section a{
+padding: 12px 30px;
+border-radius: 4px;
+outline: none;
+text-transform:uppercase ;
+font-size: 15px;
+font-weight: 550px;
+text-decoration: none;
+letter-spacing: 4px;
+
+}
+.btnone{
+	background:rgb(216, 192, 247);
+color: rgb(9, 10, 10);
+font-weight: bold;
+margin-right: 20px;
+
+}
+
+
+.btntwo{
+	background:#00b894;
+color: white;
+font-weight: bold;
+text-shadow:1px 2px 2px black;
+}
+
+.btnone:hover{
+	background:#00b894;
+	color: white;
+	font-weight: bold;
+	text-shadow:2px 3px 2px black;
+}
+
+.btntwo:hover{
+	background:rgb(127, 34, 248);
+	color: rgb(9, 10, 10);
+	font-weight: bold;
+}
+
+
+	
+
+.change_content:after{
+	content: '';
+	animation: changetext 10s infinite linear;
+	color:aquamarine;
+}
+@keyframes changetext{
+	0%{ content: "POKHARA";}
+	20%{ content: "KATHMANDU";}
+	35%{ content: "BHAKTAPUR";}
+60%{ content: "CHITWAN";}
+   80%{ content: "KAPILVASTU";}
+   100%{ content: "DANG";}
+}
